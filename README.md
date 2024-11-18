@@ -7,6 +7,7 @@
 - [Features](#features)
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
+- [Players](#players)
 - [Usage](#usage)
   - [Running the GoAI Agent](#running-the-goai-agent)
   - [Parameter Optimization](#parameter-optimization)
@@ -34,6 +35,15 @@ Ensure you have the following installed:
 
 - **Python 3.7 or higher**
 - **pip** (Python package installer)
+
+## Players
+
+There are four player agents in this code
+- **random_player.py** Moves randomly
+- **greedy_player.py** Places the stone that captures the maximum number of enemy stones
+- **aggressive_player.py** Looks at the next two possible moves and tries to capture the maximum number of enemy stones.
+- **player.py** The player I made using alpha-beta purning
+- **dqn_agent.py** The player create by Deep Q-Learning, now is still training on the ogs, and do not perfore very good.
 
 ## Usage
 
